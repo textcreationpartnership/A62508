@@ -1,0 +1,565 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Threnodium Apollinare. To the memory of the right honourable Philip late Earl of Leicester</title>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+               <date>1698</date>
+            </edition>
+         </editionStmt>
+         <extent>Approx. 19 KB of XML-encoded text transcribed from 8 1-bit group-IV TIFF page images.</extent>
+         <publicationStmt>
+            <publisher>Text Creation Partnership,</publisher>
+            <pubPlace>Ann Arbor, MI ; Oxford (UK) :</pubPlace>
+            <date when="2011-04">2011-04 (EEBO-TCP Phase 2).</date>
+            <idno type="DLPS">A62508</idno>
+            <idno type="STC">Wing T1128CA</idno>
+            <idno type="STC">ESTC R222229</idno>
+            <idno type="EEBO-CITATION">99833430</idno>
+            <idno type="PROQUEST">99833430</idno>
+            <idno type="VID">37906</idno>
+            <availability>
+               <p>To the extent possible under law, the Text Creation Partnership has waived all copyright and related or neighboring rights to this keyboarded and encoded edition of the work described above, according to the terms of the CC0 1.0 Public Domain Dedication (http://creativecommons.org/publicdomain/zero/1.0/). This waiver does not extend to any page images or other supplementary files associated with this work, which may be protected by copyright or other license restrictions. Please go to https://www.textcreationpartnership.org/ for more information about the project.</p>
+            </availability>
+         </publicationStmt>
+         <seriesStmt>
+            <title>Early English books online.</title>
+         </seriesStmt>
+         <notesStmt>
+            <note>(EEBO-TCP ; phase 2, no. A62508)</note>
+            <note>Transcribed from: (Early English Books Online ; image set 37906)</note>
+            <note>Images scanned from microfilm: (Early English books, 1641-1700 ; 2066:22)</note>
+         </notesStmt>
+         <sourceDesc>
+            <biblFull>
+               <titleStmt>
+                  <title>Threnodium Apollinare. To the memory of the right honourable Philip late Earl of Leicester</title>
+               </titleStmt>
+               <extent>15, [1] p.   </extent>
+               <publicationStmt>
+                  <publisher>[s.n.],</publisher>
+                  <pubPlace>London :</pubPlace>
+                  <date>Printed in the year, MDCXCVIII. [1698]</date>
+               </publicationStmt>
+               <notesStmt>
+                  <note>In verse.</note>
+                  <note>Reproduction of the original in the Bodleian Library.</note>
+               </notesStmt>
+            </biblFull>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>Created by converting TCP files to TEI P5 using tcp2tei.xsl,
+      TEI @ Oxford.
+      </p>
+         </projectDesc>
+         <editorialDecl>
+            <p>EEBO-TCP is a partnership between the Universities of Michigan and Oxford and the publisher ProQuest to create accurately transcribed and encoded texts based on the image sets published by ProQuest via their Early English Books Online (EEBO) database (http://eebo.chadwyck.com). The general aim of EEBO-TCP is to encode one copy (usually the first edition) of every monographic English-language title published between 1473 and 1700 available in EEBO.</p>
+            <p>EEBO-TCP aimed to produce large quantities of textual data within the usual project restraints of time and funding, and therefore chose to create diplomatic transcriptions (as opposed to critical editions) with light-touch, mainly structural encoding based on the Text Encoding Initiative (http://www.tei-c.org).</p>
+            <p>The EEBO-TCP project was divided into two phases. The 25,368 texts created during Phase 1 of the project (2000-2009), initially available only to institutions that contributed to their creation, were released into the public domain on 1 January 2015. The approximately 40,000 texts produced during Phase 2 (2009- ), of which 34,963 had been released as of 2020, originally similarly restricted, were similarly freed from all restrictions on 1 August 2020. As of that date anyone is free to take and use these texts for any purpose (modify them, annotate them, distribute them, etc.). But we do respectfully request that due credit and attribution be given to their original source.</p>
+            <p>Users should be aware of the process of creating the TCP texts, and therefore of any assumptions that can be made about the data.</p>
+            <p>Text selection was based on the New Cambridge Bibliography of English Literature (NCBEL). If an author (or for an anonymous work, the title) appears in NCBEL, then their works are eligible for inclusion. Selection was intended to range over a wide variety of subject areas, to reflect the true nature of the print record of the period. In general, first editions of a works in English were prioritized, although there are a number of works in other languages, notably Latin and Welsh, included and sometimes a second or later edition of a work was chosen if there was a compelling reason to do so.</p>
+            <p>Image sets were sent to external keying companies for transcription and basic encoding. Quality assurance was then carried out by editorial teams in Oxford and Michigan. 5% (or 5 pages, whichever is the greater) of each text was proofread for accuracy and those which did not meet QA standards were returned to the keyers to be redone. After proofreading, the encoding was enhanced and/or corrected and characters marked as illegible were corrected where possible up to a limit of 100 instances per text. Any remaining illegibles were encoded as &lt;gap&gt;s. Understanding these processes should make clear that, while the overall quality of TCP data is very good, some errors will remain and some readable characters will be marked as illegible. Users should bear in mind that in all likelihood such instances will never have been looked at by a TCP editor.</p>
+            <p>The texts were encoded and linked to page images in accordance with level 4 of the TEI in Libraries guidelines.</p>
+            <p>Copies of the texts have been issued variously as SGML (TCP schema; ASCII text with mnemonic sdata character entities); displayable XML (TCP schema; characters represented either as UTF-8 Unicode or text strings within braces); or lossless XML (TEI P5, characters represented either as UTF-8 Unicode or TEI g elements).</p>
+            <p>Keying and markup guidelines are available at the <ref target="http://www.textcreationpartnership.org/docs/.">Text Creation Partnership web site</ref>.</p>
+         </editorialDecl>
+         <listPrefixDef>
+            <prefixDef ident="tcp"
+                       matchPattern="([0-9\-]+):([0-9IVX]+)"
+                       replacementPattern="http://eebo.chadwyck.com/downloadtiff?vid=$1&amp;page=$2"/>
+            <prefixDef ident="char"
+                       matchPattern="(.+)"
+                       replacementPattern="https://raw.githubusercontent.com/textcreationpartnership/Texts/master/tcpchars.xml#$1"/>
+         </listPrefixDef>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="eng">eng</language>
+         </langUsage>
+         <textClass>
+            <keywords scheme="http://authorities.loc.gov/">
+               <term>Leicester, Philip Sidney, --  Earl of, 1619-1698 --  Early works to 1800.</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <change>
+            <date>2010-01</date>
+            <label>TCP</label>Assigned for keying and markup</change>
+         <change>
+            <date>2010-01</date>
+            <label>SPi Global</label>Keyed and coded from ProQuest page images</change>
+         <change>
+            <date>2010-02</date>
+            <label>Kayla Ondracek</label>Sampled and proofread</change>
+         <change>
+            <date>2010-02</date>
+            <label>Kayla Ondracek</label>Text and markup reviewed and edited</change>
+         <change>
+            <date>2010-04</date>
+            <label>pfs</label>Batch review (QC) and XML conversion</change>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="eng">
+      <front>
+         <div type="title_page">
+            <pb facs="tcp:37906:1" rendition="simple:additions"/>
+            <!-- PDF PAGE 16 -->
+            <p>
+               <hi>Threnodium Apollinare.</hi>
+            </p>
+            <p>TO THE MEMORY Of the Right Honourable PHILIP LATE Earl of LEICESTER.</p>
+            <p>
+               <hi>Sapiens dominabitur Aſtris.</hi>
+            </p>
+            <p>LONDON: Printed in the Year, MDCXCVIII.</p>
+         </div>
+      </front>
+      <body>
+         <div type="poem">
+            <pb facs="tcp:37906:2"/>
+            <!-- PDF PAGE 17 -->
+            <pb n="3" facs="tcp:37906:2"/>
+            <!-- PDF PAGE 17 -->
+            <head>TO THE MEMORY OF THE LATE Earl of Leiceſter.</head>
+            <lg>
+               <l>GReat <hi>Hoſpitable</hi> ROOF, thy Walls ſo Fair,</l>
+               <l>Once WITS whole <hi>Pantheon,</hi> and their LORD ſhin'd there;</l>
+               <l>There the glad <hi>Muſes</hi> ſmil'd, and ſung, and play'd;</l>
+               <l>There their whole Winters <hi>Suns,</hi> and Summers <hi>Shade:</hi>
+               </l>
+               <l>Thy <hi>Glories</hi> now to rueful <hi>Sable</hi> turn,</l>
+               <l>No cheerful <hi>Lights,</hi> but <hi>Funeral Tapers</hi> burn:</l>
+               <l>For, oh, in <hi>Dust</hi> muſt now the loſt <hi>Thalia</hi> mourn.</l>
+            </lg>
+            <lg>
+               <l>In common Themes, when the <hi>Caſtalian Choir,</hi>
+               </l>
+               <l>For ſome ſad Airs, ſtring up their mournful <hi>Lyre;</hi>
+               </l>
+               <l>No more than an Obſequious <hi>well-tun'd</hi> Woe,</l>
+               <l>The warbling Murmurs there, all <hi>Artful</hi> Numbers flow.</l>
+               <l>But to their Great <hi>MAECENAS,</hi> to that Dear,</l>
+               <l>Lov'd, Honour'd, Ador'd HEAD, the <hi>Genuine</hi> Tear,</l>
+               <l>And the <hi>unmeaſur'd</hi> Grief's all melting <hi>Nature</hi> here.</l>
+               <pb n="4" facs="tcp:37906:3" rendition="simple:additions"/>
+               <!-- PDF PAGE 18 -->
+               <l>What warmer <hi>Sighs</hi> the Eloquent <hi>Sorrow</hi> draws,</l>
+               <l>Not where it <hi>Pleads,</hi> but where it <hi>Feels</hi> the Cauſe:</l>
+               <l>Go vaſt the Difference (a Zeal ſo fier'd)</l>
+               <l>'Twixt <hi>Raptures</hi> only Studied, and <hi>Inſpir'd!</hi>
+               </l>
+            </lg>
+            <lg>
+               <l>And when their Plaint the wailing <hi>Muſes</hi> join,</l>
+               <l>At <hi>Younger</hi> Herſes, ſome <hi>Endimion</hi>'s Shrine;</l>
+               <l>As Mourning <hi>Siſters</hi> there they ſhed a Tear:</l>
+               <l>But oh, they come all Mourning <hi>Daughters</hi> here.</l>
+               <l>A longer <hi>Train</hi> their heavier Sorrows trail,</l>
+               <l>In darker <hi>Cypreſs</hi> and the ſhadier <hi>Veil.</hi>
+               </l>
+               <l>
+                  <hi>Pity</hi> and <hi>Love</hi> may ſwell the weeping Eye;</l>
+               <l>A deeper <hi>Fountain</hi> does this <hi>Stream</hi> ſupply:</l>
+               <l>For here 'tis <hi>Honour, Duty, Piety.</hi>
+               </l>
+            </lg>
+            <lg>
+               <l>Nay a yet ſtronger <hi>Tie</hi> calls the whole <hi>Nine,</hi>
+               </l>
+               <l>To pay no common <hi>Tribute</hi> to this SHRINE:</l>
+               <l>
+                  <hi>Science</hi> and <hi>Arts,</hi> every <hi>Studied</hi> Grace,</l>
+               <l>Th' <hi>Hereditary</hi> Pride of that <hi>Learn'd</hi> Race,</l>
+               <l>
+                  <hi>LEIC'STER</hi>'s a Name <hi>Renown'd</hi> to that Degree,</l>
+               <l>The Homaging <hi>Minerva</hi> bends a Knee:</l>
+               <l>That Name in Vaſſalage the <hi>Muſes</hi> leads:</l>
+               <l>The <hi>SYDNEYS</hi> are <hi>Apollinary</hi> Heads.</l>
+            </lg>
+            <pb n="5" facs="tcp:37906:3"/>
+            <!-- PDF PAGE 18 -->
+            <lg>
+               <l>But is't the <hi>Muſe</hi> alone the Cypreſs wears,</l>
+               <l>Only the <hi>Heliconian Fount</hi> run Tears?</l>
+               <l>His <hi>Cavalcade</hi> to that poor Pomp confin'd?</l>
+               <l>No; the whole <hi>Gown,</hi> the <hi>Robe,</hi> the <hi>Bays,</hi> all join'd,</l>
+               <l>
+                  <hi>Wit, Politicks, States, Academies,</hi> theſe,</l>
+               <l>His equal <hi>Pupils,</hi> equal <hi>Nurſeries;</hi>
+               </l>
+               <l>Down from the <hi>Pilot</hi> at the <hi>Helm</hi> Above,</l>
+               <l>Ev'n to the <hi>Strephon</hi> Songſter of the Grove;</l>
+               <l>Of ſolemn Grief a long unbroken Chain,</l>
+               <l>Shall nobly fill his Numerous <hi>Funeral Train.</hi>
+               </l>
+               <l>So mourn'd, the whole <hi>Learn'd World</hi> his <hi>Rites</hi> ſupplies,</l>
+               <l>He cantons <hi>Provinces</hi> for watry Eyes;</l>
+               <l>Whilſt their Arrears of <hi>Sorrow</hi> to defray,</l>
+               <l>'Tis <hi>Pride</hi> to owe, and <hi>Gratitude</hi> to pay.</l>
+            </lg>
+            <lg>
+               <l>But whilſt this Great <hi>GAMALIEL</hi> ſure was born,</l>
+               <l>Proud <hi>Literatur's</hi> whole ſpacious <hi>Reign</hi> t' adorn;</l>
+               <l>Shall WITS vaſt <hi>Empire,</hi> that unbounded <hi>Sway,</hi>
+               </l>
+               <l>The only Tribute to Great <hi>LEIC'STER</hi> pay?</l>
+               <l>The Grateful <hi>Pen</hi> alone commence his Praiſe?</l>
+               <l>The <hi>Pencil</hi> too muſt His fam'd <hi>Trophies</hi> raiſe.</l>
+               <l>To <hi>LEIC'STER</hi> as his equal GLORIES Due,</l>
+               <l>The Great <hi>Apollo</hi> and th' <hi>Apelles</hi> too,</l>
+               <pb n="6" facs="tcp:37906:4"/>
+               <!-- PDF PAGE 19 -->
+               <l>Her Lantſcape <hi>Pallaces, Tow'rs, Seas</hi> and <hi>Land,</hi>
+               </l>
+               <l>The gilded <hi>Stream,</hi> and all the ſhaded <hi>Strand,</hi>
+               </l>
+               <l>The <hi>Pencils</hi> whole CREATION, all her fair</l>
+               <l>
+                  <hi>Poetick Worlds</hi> ſhall pay their <hi>Homage</hi> there.</l>
+               <l>Around him all his <hi>Pentionary</hi> Band,</l>
+               <l>Of <hi>Reuben</hi>'s, <hi>Angelo</hi>'s, and <hi>Raphael</hi>'s ſtand.</l>
+               <l>Entring thoſe <hi>Walls,</hi> what an all dazling <hi>Scene</hi>
+               </l>
+               <l>Does our Surveying <hi>Wonder</hi> entertain?</l>
+               <l>At once amaz'd, and pleas'd, a Look we caſt</l>
+               <l>To <hi>Glories,</hi> back ev'n to whole <hi>Ages</hi> paſt.</l>
+               <l>
+                  <hi>Painting,</hi> that <hi>Monumental</hi> Hiſtory,</l>
+               <l>In whoſe <hi>Records,</hi> to every Reading Eye,</l>
+               <l>Neither the <hi>Glorious</hi> nor the <hi>Beauteous</hi> die.</l>
+               <l>In that rich Tablet ſee the <hi>Lawrell'd Head,</hi>
+               </l>
+               <l>Ev'n wak'd from his long ſleeping <hi>Honours Bed,</hi>
+               </l>
+               <l>There th' <hi>Hero</hi> ſee in all his glittering <hi>Arms;</hi>—</l>
+               <l>Here ſee ſome <hi>Phoenix</hi> Beauty, all her Charms,</l>
+               <l>Rais'd from her <hi>Dust</hi> in Deathleſs <hi>White</hi> and <hi>Red!</hi>
+               </l>
+               <l>
+                  <hi>Art</hi> can give <hi>Life!</hi> See the Great <hi>Living</hi> Dead.</l>
+            </lg>
+            <lg>
+               <l>If <hi>Heav'n-ſtoln</hi> Fires cou'd animate the <hi>Clay;</hi>
+               </l>
+               <l>What Nobler <hi>Theft</hi> the daring <hi>Pencils</hi> play?</l>
+               <l>So much the bolder <hi>Painter</hi> does outfly</l>
+               <l>The old <hi>Promethean</hi> Petty Larceny;</l>
+               <pb n="7" facs="tcp:37906:4" rendition="simple:additions"/>
+               <!-- PDF PAGE 19 -->
+               <l>Not a poor Spark ſnatcht from his <hi>Chariot</hi> Wheels;</l>
+               <l>Not ſteals from <hi>JOVE,</hi> but <hi>JOVE</hi> Himſelf he ſteals.</l>
+               <l>Him not the Skies Imperial <hi>Rover</hi> ſcapes;</l>
+               <l>He hunts him thro' the <hi>Gold, Swan, Bull,</hi> all <hi>Shapes;</hi>
+               </l>
+               <l>The very GOD expoſed in all his Amorous <hi>Rapes.</hi>
+               </l>
+               <l>Nay the ſtill more Audacious <hi>Riffler</hi> pries</l>
+               <l>Into the inmoſt <hi>Chambers</hi> of the <hi>Skies.</hi>
+               </l>
+               <l>He ſteals his very <hi>J<g ref="char:V">Ʋ</g>NO</hi> from his Arms;</l>
+               <l>And with a <hi>Sacriledge</hi> even yet more bold,</l>
+               <l>Unveils to Human Eyes the <hi>Naked</hi> GODDESS Charms,</l>
+               <l>And gives the <hi>Trojan Boy</hi> once more the <hi>Ball</hi> of <hi>Gold.</hi>
+               </l>
+            </lg>
+            <lg>
+               <l>Illuſtrious ART, whom Miniſtring <hi>Nature,</hi> all</l>
+               <l>Thy <hi>Handmaid,</hi> waits on thy Commanding Call!</l>
+               <l>Like the Great <hi>FIAT,</hi> thou both <hi>Day</hi> and <hi>Night</hi>
+               </l>
+               <l>Call'ſt forth, and deckſt in their own <hi>Shades</hi> and <hi>Light.</hi>
+               </l>
+               <l>Ev'n <hi>Heav'ns</hi> whole <hi>Hierachy,</hi> the LORDS above,</l>
+               <l>By Thee their whole Triumphant <hi>Chariots</hi> move,</l>
+               <l>From th' Harneſt <hi>Dragon</hi> to the Bridled <hi>Dove.</hi>
+               </l>
+               <l>
+                  <hi>Mercurial Art,</hi> who captiv'd <hi>Eyes</hi> to take,</l>
+               <l>Thou doſt a <hi>Virtue</hi> of <hi>Deluſion</hi> make;</l>
+               <l>Thou only Honeſt <hi>Cozener,</hi> Fair <hi>Deceit,</hi>
+               </l>
+               <l>Who canſt even conſecrate both <hi>Theft</hi> and <hi>Cheat.</hi>
+               </l>
+               <pb n="8" facs="tcp:37906:5"/>
+               <!-- PDF PAGE 20 -->
+               <l>Thine were the <hi>Maſter-ſtrokes</hi> Great <hi>LEIC'STER</hi> pleaſed,</l>
+               <l>And ſuch the <hi>Darling Arts</hi> His <hi>Favour</hi> rais'd.</l>
+               <l>And thus if the <hi>Dodona</hi>'s Grove, of Old,</l>
+               <l>From Tongueleſs <hi>Oaks</hi> cou'd ORACLES unfold;</l>
+               <l>An eaſier <hi>Wonder</hi> ſhall His <hi>Fame</hi> record,</l>
+               <l>Whilſt ſpeaking <hi>Shadows</hi> own their PATRON <hi>Lord:</hi>
+               </l>
+               <l>The fair <hi>Auguſta</hi>'s their <hi>MAECENAS</hi> greet,</l>
+               <l>And bend their <hi>Towry</hi> Foreheads at His Feet.</l>
+            </lg>
+            <lg>
+               <l>Theſe were the <hi>Beauties</hi> which He lov'd ſo dear:</l>
+               <l>Nor ſhall his <hi>Pencil-Glory</hi> finiſh here.</l>
+               <l>In <hi>Death,</hi> 'tis true, with a diſdainful Hand,</l>
+               <l>His poorer <hi>Titian</hi> Troop He does disband.</l>
+               <l>For now a nobler <hi>Draught</hi> muſt charm his Sight,</l>
+               <l>
+                  <hi>Proſpects</hi> of BLISS, all <hi>Portraitures</hi> more Bright,</l>
+               <l>Drawn by th' Immortal <hi>L<g ref="char:V">Ʋ</g>KE</hi>'s Diviner <hi>Light.</hi>
+               </l>
+               <l>And though his <hi>Menial Muſes</hi> left behind,</l>
+               <l>He's gone, and more <hi>Celeſtial CHOIRS</hi> has join'd;</l>
+               <l>All loftier Subjects, and ſublimer Air:</l>
+               <l>Tis Thou, <hi>
+                     <g ref="char:V">Ʋ</g>RANIA,</hi> mak'ſt the <hi>Muſick</hi> there.</l>
+            </lg>
+            <lg>
+               <l>Such Worthieſt <hi>LEIC'STER</hi> liv'd, and ſuch He <hi>died:</hi>
+               </l>
+               <l>So Shin'd his <hi>Riſing</hi> and his <hi>Setting</hi> Pride.</l>
+               <pb n="9" facs="tcp:37906:5"/>
+               <!-- PDF PAGE 20 -->
+               <l>But with that Penetrating WISDOM, WIT,</l>
+               <l>
+                  <hi>Depths</hi> ſo profound, a HEAD and SOUL ſo Great;</l>
+               <l>Th' unthinking World may wonder, that Sublime</l>
+               <l>And Towring <hi>Spirit</hi> made no <hi>Popular</hi> Climb.</l>
+               <l>What tho' uncharm'd with Publick <hi>Trust</hi> and <hi>Pow'r,</hi>
+               </l>
+               <l>To the gay glittering COURT he made no <hi>Tour:</hi>
+               </l>
+               <l>Nor fond of buſy <hi>Tumult, Noiſe</hi> and <hi>Strife,</hi>
+               </l>
+               <l>He choſe the gentler <hi>Harmony</hi> of Life?</l>
+               <l>His whole <hi>Ambition</hi> his Own <hi>Walls</hi> contain'd;</l>
+               <l>And quietly within <hi>Himſelf</hi> He reign'd:</l>
+               <l>Perhaps, with Nobler <hi>Pride</hi> he did deſpiſe</l>
+               <l>To Herd in crowded Courts, only to Riſe,</l>
+               <l>No Higher Pitch, than ſhine in <hi>Galaxies:</hi>
+               </l>
+               <l>Not made a <hi>Part</hi> (th' <hi>Attendant</hi> on a Throne;)</l>
+               <l>His <hi>Sphere</hi> of GLORY fill'd HIMSELF alone.</l>
+               <l>So fill'd; that what cou'd a <hi>Court-Feather</hi> add</l>
+               <l>To His Rich <hi>Plume? Courts</hi> but His <hi>Levy</hi> made.</l>
+               <l>Their Great Conſulted <hi>OEdipus,</hi> HE ſate</l>
+               <l>An ORACLE above the <hi>Helm of State:</hi>
+               </l>
+               <l>Thoſe Pilots <hi>taught,</hi> where He diſdain'd to <hi>ſteer,</hi>
+               </l>
+               <l>Whilſt <hi>Client Stateſmen</hi> came like travelling <hi>Sheba</hi>'s here.</l>
+            </lg>
+            <lg>
+               <l>What tho' nor <hi>Courts</hi> nor <hi>Camps</hi> his Choice he made;</l>
+               <l>But fixt his <hi>Bow'r</hi> beneath the <hi>Olive</hi> Shade?</l>
+               <pb n="10" facs="tcp:37906:6"/>
+               <!-- PDF PAGE 21 -->
+               <l>In Camps, indeed, does <hi>Honour</hi> truly ſhine:</l>
+               <l>But, oh! 'tis drawn to a <hi>Gold Thred</hi> ſo fine;</l>
+               <l>The <hi>Warrior</hi> toils for <hi>Fame</hi> with all that <hi>Pain,</hi>
+               </l>
+               <l>'Twixt Fifty <hi>Thouſand</hi> Sharers, each a <hi>Grain.</hi>
+               </l>
+               <l>'Tis true, thoſe <hi>Fragment</hi> Bays His <hi>Brow</hi> ne're wore.</l>
+               <l>Such a <hi>Divided</hi> Portion was too poor:</l>
+               <l>
+                  <hi>Glory,</hi> was <hi>LEIC'STER</hi>'s <hi>All;</hi> His own before.</l>
+               <l>That <hi>Native</hi> Stock of <hi>Fame,</hi> ſo all Entire,</l>
+               <l>Wanted no <hi>Steel</hi> to ſparkle out her <hi>Fire.</hi>
+               </l>
+            </lg>
+            <lg>
+               <l>In that <hi>Receſs</hi> of Life, within his Own</l>
+               <l>
+                  <hi>Domeſtick Walls</hi> He reign'd, and reign'd <hi>Alone.</hi>
+               </l>
+               <l>His <hi>Menial</hi> Subjects led by ſo Divine a <hi>Sway;</hi>
+               </l>
+               <l>As <hi>Angels</hi> ſerve in <hi>Heav'n,</hi> 'twas <hi>Glory</hi> to Obey.</l>
+               <l>A <hi>Glory</hi> too like <hi>Heav'ns,</hi> no <hi>Change</hi> it knew;</l>
+               <l>An Angel <hi>Homage,</hi> and their <hi>Charter</hi> too.</l>
+               <l>His <hi>Smiles</hi> were no blind <hi>Lottery</hi> of Chance.</l>
+               <l>For <hi>Favour</hi> there was an <hi>Inheritance.</hi>
+               </l>
+            </lg>
+            <lg>
+               <l>This Life he <hi>choſe;</hi> and ought we judge no leſs</l>
+               <l>The <hi>Merit</hi> of his Choice, from the <hi>Succeſs:</hi>
+               </l>
+               <l>Such his long Affluence of <hi>Happineſs;</hi>
+               </l>
+               <l>And all the pondrous <hi>Harvest</hi> he had reap'd:</l>
+               <l>To ſee the <hi>Maſs</hi> Induſtrious HONOUR heap'd:</l>
+               <pb n="11" facs="tcp:37906:6"/>
+               <!-- PDF PAGE 21 -->
+               <l>HONOUR that no <hi>Columbus</hi> Sail er'e furl'd;</l>
+               <l>He found His <hi>Golden Mines</hi> in the <hi>Old</hi> World.</l>
+               <l>Thus to behold the Proſperous <hi>LEIC'STER</hi> bleſt,</l>
+               <l>And weigh but by what <hi>Title</hi> He poſſeſt;</l>
+               <l>Here let our finiſh'd Admiration reſt.</l>
+            </lg>
+            <lg>
+               <l>In all her <hi>Random Gifts</hi> of every Day,</l>
+               <l>
+                  <hi>Fortune</hi> does there but the <hi>blind</hi> Goddeſs play.</l>
+               <l>But when ſuch WORTH does her beſt <hi>Graces</hi> ſhare,</l>
+               <l>She finds her <hi>Eyes</hi> to chooſe the <hi>Favourite</hi> there.</l>
+               <l>That <hi>Darling</hi> Favourite even rais'd ſo High,</l>
+               <l>He fix'd her very <hi>Wheel,</hi> and taught her <hi>Conſtancy.</hi>
+               </l>
+               <l>So did Great <hi>LEIC'STER</hi>'s generous <hi>Stars</hi> diſpence</l>
+               <l>His juſt <hi>Inheritance</hi> of <hi>Providence;</hi>
+               </l>
+               <l>
+                  <hi>Bleſſings</hi> that ev'n by <hi>Claim</hi> he did demand,</l>
+               <l>Not from the <hi>Giving,</hi> but <hi>Rewarding</hi> Hand.</l>
+               <l>Their <hi>Fairest</hi> and the moſt <hi>Propitious</hi> Ray,</l>
+               <l>The <hi>Grateful</hi> POW'RS could do no leſs than pay.</l>
+               <l>He Charm'd 'em into Smiles.—So <hi>Jove</hi> of Old,</l>
+               <l>Firſt found the BEAUTY, and then ſhow'rd the GOLD.</l>
+            </lg>
+            <lg>
+               <l>But whilſt the Bleſſings pour'd ſo high; the more</l>
+               <l>The Flowing <hi>Tide,</hi> and the Encreaſing Store,</l>
+               <pb n="12" facs="tcp:37906:7"/>
+               <!-- PDF PAGE 22 -->
+               <l>
+                  <hi>Riches</hi> were there of that Illuſtrious <hi>Riſe,</hi>
+               </l>
+               <l>No Nurſe of <hi>Pride</hi> nor Child of <hi>Avarice.</hi>
+               </l>
+               <l>The faireſt Plumes <hi>Proſperity</hi> cou'd bring</l>
+               <l>Gave but his <hi>Charity</hi> the Lighter <hi>Wing.</hi>
+               </l>
+               <l>Aſcending <hi>Charity,</hi> Thy <hi>Head</hi> ſo <hi>crown'd,</hi>
+               </l>
+               <l>Of <hi>Jacob</hi>'s <hi>Ladder</hi> Thine's the Higheſt Round.</l>
+               <l>Bright <hi>Charity</hi> with thy <hi>Moſaick Face,</hi>
+               </l>
+               <l>HEAV'NS and Great <hi>LEIC'STERS</hi> equal <hi>Darling Grace.</hi>
+               </l>
+               <l>Twas on thy Wings His pious <hi>Tranſports</hi> rod:</l>
+               <l>The nobleſt <hi>Gratitude</hi> t' a <hi>ſmiling</hi> GOD.</l>
+            </lg>
+            <lg>
+               <l>Thus whilſt Great LEIC'STER, all he had to die,</l>
+               <l>In his Paternal <hi>Bed</hi> of <hi>Rest</hi> ſhall lie;</l>
+               <l>
+                  <hi>Marble</hi> and <hi>Epitaphs,</hi> alas, ſhall raiſe</l>
+               <l>The meaneſt part of His <hi>Recorded Praiſe.</hi>
+               </l>
+               <l>His <hi>Trump</hi> ſhall ſound from the <hi>Fed Mouths</hi> He fill'd:</l>
+               <l>Tis They the nobleſt <hi>Mauſoleum</hi> build.</l>
+               <l>Reliev'd <hi>Diſtreſs,</hi> and Succour'd <hi>Miſeries,</hi>
+               </l>
+               <l>Stand round his <hi>Tomb</hi> with uplift <hi>Hands</hi> and <hi>Eyes;</hi>
+               </l>
+               <l>Thoſe <hi>Living Monuments</hi> His <hi>Pile</hi> of FAME ſhall riſe.</l>
+            </lg>
+            <lg>
+               <l>Thus whilſt the more peculiar <hi>Care</hi> of <hi>Heav'n</hi>
+               </l>
+               <l>To that <hi>Lov'd Head,</hi> thoſe <hi>lengthen'd</hi> Days had given;</l>
+               <pb n="13" facs="tcp:37906:7"/>
+               <!-- PDF PAGE 22 -->
+               <l>
+                  <hi>LEIC'STER</hi>'s no <hi>Start,</hi> but <hi>Travell'd</hi> Race; and all</l>
+               <l>His <hi>long long</hi> Life makes but the <hi>Rowling Ball;</hi>
+               </l>
+               <l>Does t' all the <hi>full-blown</hi> Sweets of <hi>Goodneſs</hi> riſe,</l>
+               <l>And in his <hi>Silver-headed GLORY</hi> dies:</l>
+               <l>Here let pretending YOUTH no longer plume</l>
+               <l>In all her Juvenile vain <hi>Pride</hi> and <hi>Bloom.</hi>
+               </l>
+               <l>Tis true the Spring-tide <hi>Flow'rs,</hi> the <hi>Sweet</hi> and <hi>Gay,</hi>
+               </l>
+               <l>Are the fair <hi>Product</hi> of the ſmiling <hi>MAY:</hi>
+               </l>
+               <l>But for a worthier <hi>Growth,</hi> and ſolid <hi>Root,</hi>
+               </l>
+               <l>The Richer <hi>Crop</hi> is all the AUTUMN Fruit.</l>
+               <l>What tho' the Vigorous <hi>Health,</hi> the Nervier <hi>Arm,</hi>
+               </l>
+               <l>And all the Sprightlier <hi>Heat</hi> Young Veins may warm?</l>
+               <l>In Chiller Blood the warmer VIRTUES glow;</l>
+               <l>Whilſt <hi>Aetna</hi>-like, the <hi>Fire</hi>'s beneath the <hi>Snow.</hi>
+               </l>
+               <l>AGE to Fair MINDS adds but th' enlightning <hi>Beam:</hi>
+               </l>
+               <l>The crazier <hi>Casket</hi> holds the brighter <hi>Jem.</hi>
+               </l>
+               <l>No Birdlime <hi>Senſes</hi> the clogg'd Wing hold down;</l>
+               <l>There the Full <hi>Flight</hi> of SOULS is all their <hi>Own.</hi>
+               </l>
+               <l>And thus, as the <hi>Almighty Founder</hi> pleas'd,</l>
+               <l>Our <hi>Humane Frames</hi> from Moulds of <hi>Clay</hi> are rais'd;</l>
+               <l>Tis Ripening <hi>Time</hi> that beſt refines the MAN:</l>
+               <l>There wants the <hi>Years</hi> to raiſe the <hi>Purcelane.</hi>
+               </l>
+               <l>Tho' th' <hi>Honourable</hi> Load of <hi>Age,</hi> deſpis'd</l>
+               <l>By Giddy-headed <hi>Fools</hi> be poorly priz'd:</l>
+               <pb n="14" facs="tcp:37906:8"/>
+               <!-- PDF PAGE 23 -->
+               <l>As if Declining Years ſo low were run,</l>
+               <l>That ev'n their finiſh'd Work of Life were done!</l>
+               <l>If poſſible, the very <hi>Neſtor</hi>'s Age,</l>
+               <l>When truly ſcan'd, is but Life's <hi>Middle</hi> Stage.</l>
+               <l>The Reverend <hi>Seer,</hi> with the true <hi>Janus</hi> Face,</l>
+               <l>T' a long <hi>past</hi> Life behind, not th' <hi>Half-way</hi> Race,</l>
+               <l>To a vain <hi>World</hi> looks back, only to ſee</l>
+               <l>His longer <hi>Way</hi> before, ETERNITY.</l>
+            </lg>
+            <lg>
+               <l>And what tho' the rude <hi>Aches, Gout, Catarrh,</hi>
+               </l>
+               <l>In Hoary Heads make their rough <hi>Seat</hi> of <hi>War?</hi>
+               </l>
+               <l>Perhaps to <hi>Age</hi> this is a <hi>Favour</hi> given,</l>
+               <l>To whet her for the greater <hi>Gust</hi> of <hi>HEAV'N.</hi>
+               </l>
+               <l>She from <hi>Short Pains</hi> does <hi>Endleſs Joys</hi> perſue,</l>
+               <l>All at the Fairer and more Pleaſing <hi>View:</hi>
+               </l>
+               <l>Whilſt <hi>tired</hi> with <hi>Life,</hi> th' ungrateful <hi>Load</hi> reſign'd,</l>
+               <l>She leaves a <hi>Hated</hi> not <hi>Lov'd</hi> World behind.</l>
+            </lg>
+            <lg>
+               <l>Tis true, Tranſlated VIRTUE to the Skies,</l>
+               <l>By the Rewarding GODS may in her <hi>Nonage</hi> riſe;</l>
+               <l>Whilſt <hi>JOVE</hi> his <hi>Starry Glories</hi> does allow,</l>
+               <l>To <hi>Junior</hi> Favourites, the <hi>Minor</hi> Brow.</l>
+               <l>What though a <hi>Conſtellation</hi> does adorn</l>
+               <l>The <hi>Caſſiopaea</hi>'s Chair, and <hi>Hyla</hi>'s Urn?</l>
+               <pb n="15" facs="tcp:37906:8"/>
+               <!-- PDF PAGE 23 -->
+               <l>Let the Great TREASURY diſpenſe her <hi>Jems,</hi>
+               </l>
+               <l>More or leſs Bright, from <hi>Sparks</hi> to <hi>Diadems.</hi>
+               </l>
+               <l>To <hi>Youth</hi> of <hi>Beauty</hi> let their Claim be given,</l>
+               <l>Their <hi>Legacies</hi> of Bliſs, and <hi>Part</hi> of <hi>Heaven.</hi>
+               </l>
+               <l>The <hi>Elder-Brother's</hi> Birthright is His Share;</l>
+               <l>Exalted WORTH th' exalted <hi>Prize</hi> muſt bear:</l>
+               <l>He, like <hi>Alcides,</hi> brings His Finiſh'd <hi>Labours</hi> there.</l>
+            </lg>
+            <lg>
+               <l>And ſince the <hi>Hour,</hi> the fatal <hi>Hour's</hi> aſſign'd,</l>
+               <l>(For ſtill the World muſt <hi>loſe,</hi> that Heav'n may find:)</l>
+               <l>Say, in what Year ſhall th' Engliſh <hi>Annals</hi> tell,</l>
+               <l>That her dear LEIC'STER, her lov'd <hi>PATRIOT,</hi> fell?</l>
+               <l>In that bleſt <hi>Aera,</hi> when th' huſht <hi>Tempeſts</hi> ceaſe,</l>
+               <l>In fair <hi>Britannia</hi>'s Jubilee of PEACE,</l>
+               <l>And all her ſmiling Carnival of <hi>Joy,</hi>
+               </l>
+               <l>It looks as if He made his <hi>Choice</hi> to Die.</l>
+               <l>He liv'd to ſee the <hi>ALBION Dove</hi> bring o're</l>
+               <l>Her blooming <hi>Olive</hi> to our happy Shore;</l>
+               <l>Then lull'd in <hi>Pleaſures,</hi> in that <hi>Halcyon</hi> Neſt,</l>
+               <l>He laid Him down to <hi>Everlaſting Rest.</hi>
+               </l>
+            </lg>
+            <trailer>FINIS.</trailer>
+         </div>
+      </body>
+   </text>
+</TEI>
